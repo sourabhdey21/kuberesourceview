@@ -36,6 +36,20 @@ docker-compose up --build
 2. The app will be available at `http://localhost:5000`
 3. Your local kubeconfig will be mounted for cluster access.
 
+### Docker (Single Container)
+1. Build the Docker image:
+```bash
+docker build -t kubeview .
+```
+2. Run the container:
+```bash
+docker run -d \
+  -p 5000:5000 \
+  -v ~/.kube:/root/.kube:ro \
+  --name kubeview kubeview
+```
+3. The app will be available at `http://localhost:5000`
+
 ## Project Structure
 - `app.py` - Main FastAPI application
 - `templates/` - HTML templates
