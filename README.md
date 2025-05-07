@@ -15,10 +15,10 @@ A modern web application to view and manage Kubernetes resources across all name
 ## Screenshots
 
 ### Nodes View
-![Nodes View](image/README/1746638012845.png)
+![Nodes View](image/README/nodes.png)
 
 ### Resources & Pricing
-![Resources and Pricing](image/README/1746638014777.png)
+![Resources and Pricing](image/README/price.png)
 
 ## Setup
 
