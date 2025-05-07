@@ -12,6 +12,14 @@ A modern web application to view and manage Kubernetes resources across all name
 - Node and cluster pricing insights (USD/INR)
 - Docker and Docker Compose support
 
+## Screenshots
+
+### Nodes View
+![Nodes View](image/README/1746638012845.png)
+
+### Resources & Pricing
+![Resources and Pricing](image/README/1746638014777.png)
+
 ## Setup
 
 ### Local (Python venv)
@@ -71,4 +79,4 @@ FastAPI automatically generates API documentation. You can access it at:
 - ReDoc: `http://localhost:5000/redoc`
 
 ## .gitignore
-This project includes a `.gitignore` to exclude Python cache, virtual environments, editor files, logs, and sensitive files like `.env`. 
+This project includes a `.gitignore` to exclude Python cache, virtual environments, editor files, logs, and sensitive files like `.env`.
