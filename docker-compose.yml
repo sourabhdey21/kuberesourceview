@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  kubeview:
+    build: .
+    container_name: kubeview
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+      - ~/.kube:/root/.kube:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped 
